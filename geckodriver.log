@@ -1,0 +1,393 @@
+1567882258000	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.l3mHkuWH0KAL"
+
+(firefox:22832): Gtk-WARNING **: 00:20:58.040: Theme parsing error: gtk.css:126:40: Expected ')' in color definition
+
+(firefox:22832): Gtk-WARNING **: 00:20:58.052: Theme parsing error: gtk.css:8679:128: Expected a valid selector
+1567882258413	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1567882258413	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1567882258414	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1567882258414	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(/usr/lib/firefox/firefox:22883): Gtk-WARNING **: 00:20:58.964: Theme parsing error: gtk.css:126:40: Expected ')' in color definition
+
+(/usr/lib/firefox/firefox:22883): Gtk-WARNING **: 00:20:58.984: Theme parsing error: gtk.css:8679:128: Expected a valid selector
+
+(/usr/lib/firefox/firefox:22902): Gtk-WARNING **: 00:20:59.114: Theme parsing error: gtk.css:126:40: Expected ')' in color definition
+
+(/usr/lib/firefox/firefox:22902): Gtk-WARNING **: 00:20:59.139: Theme parsing error: gtk.css:8679:128: Expected a valid selector
+1567882259912	Marionette	INFO	Listening on port 35737
+
+(/usr/lib/firefox/firefox:22970): Gtk-WARNING **: 00:20:59.981: Theme parsing error: gtk.css:126:40: Expected ')' in color definition
+
+(/usr/lib/firefox/firefox:22970): Gtk-WARNING **: 00:20:59.993: Theme parsing error: gtk.css:8679:128: Expected a valid selector
+1567882260009	Marionette	WARN	TLS certificate errors will be ignored for this session
+1567882267547	Marionette	INFO	Stopped listening on port 35737
+1567882966661	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.t7D0HVPKwnwK"
+
+(firefox:23660): Gtk-WARNING **: 00:32:46.698: Theme parsing error: gtk.css:126:40: Expected ')' in color definition
+
+(firefox:23660): Gtk-WARNING **: 00:32:46.711: Theme parsing error: gtk.css:8679:128: Expected a valid selector
+1567882967083	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1567882967083	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1567882967083	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1567882967083	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(/usr/lib/firefox/firefox:23712): Gtk-WARNING **: 00:32:47.659: Theme parsing error: gtk.css:126:40: Expected ')' in color definition
+
+(/usr/lib/firefox/firefox:23712): Gtk-WARNING **: 00:32:47.671: Theme parsing error: gtk.css:8679:128: Expected a valid selector
+
+(/usr/lib/firefox/firefox:23731): Gtk-WARNING **: 00:32:47.799: Theme parsing error: gtk.css:126:40: Expected ')' in color definition
+
+(/usr/lib/firefox/firefox:23731): Gtk-WARNING **: 00:32:47.818: Theme parsing error: gtk.css:8679:128: Expected a valid selector
+1567882968721	Marionette	INFO	Listening on port 45563
+1567882968769	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:23801): Gtk-WARNING **: 00:32:48.773: Theme parsing error: gtk.css:126:40: Expected ')' in color definition
+
+(/usr/lib/firefox/firefox:23801): Gtk-WARNING **: 00:32:48.786: Theme parsing error: gtk.css:8679:128: Expected a valid selector
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221567814407663%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+
+(/usr/lib/firefox/firefox:23977): Gtk-WARNING **: 00:34:57.105: Theme parsing error: gtk.css:126:40: Expected ')' in color definition
+
+(/usr/lib/firefox/firefox:23977): Gtk-WARNING **: 00:34:57.124: Theme parsing error: gtk.css:8679:128: Expected a valid selector
+[Parent 23660, Gecko_IOThread] WARNING: pipe error (82): Connection reset by peer: file /build/firefox-qCOyDf/firefox-68.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 23660, Gecko_IOThread] WARNING: pipe error (79): Connection reset by peer: file /build/firefox-qCOyDf/firefox-68.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 23660, Gecko_IOThread] WARNING: pipe error (135): Connection reset by peer: file /build/firefox-qCOyDf/firefox-68.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1567883099572	Marionette	INFO	Stopped listening on port 45563
+1567883122937	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.fec9AdN1OGv7"
+
+(firefox:24033): Gtk-WARNING **: 00:35:22.978: Theme parsing error: gtk.css:126:40: Expected ')' in color definition
+
+(firefox:24033): Gtk-WARNING **: 00:35:22.996: Theme parsing error: gtk.css:8679:128: Expected a valid selector
+1567883123353	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1567883123353	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1567883123353	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1567883123353	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(/usr/lib/firefox/firefox:24083): Gtk-WARNING **: 00:35:23.914: Theme parsing error: gtk.css:126:40: Expected ')' in color definition
+
+(/usr/lib/firefox/firefox:24083): Gtk-WARNING **: 00:35:23.926: Theme parsing error: gtk.css:8679:128: Expected a valid selector
+
+(/usr/lib/firefox/firefox:24104): Gtk-WARNING **: 00:35:24.052: Theme parsing error: gtk.css:126:40: Expected ')' in color definition
+
+(/usr/lib/firefox/firefox:24104): Gtk-WARNING **: 00:35:24.074: Theme parsing error: gtk.css:8679:128: Expected a valid selector
+1567883124913	Marionette	INFO	Listening on port 34431
+1567883124949	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:24172): Gtk-WARNING **: 00:35:24.964: Theme parsing error: gtk.css:126:40: Expected ')' in color definition
+
+(/usr/lib/firefox/firefox:24172): Gtk-WARNING **: 00:35:24.976: Theme parsing error: gtk.css:8679:128: Expected a valid selector
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221567814407663%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x53000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+[Parent 24033, Gecko_IOThread] WARNING: pipe error (79): Connection reset by peer: file /build/firefox-qCOyDf/firefox-68.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 24033, Gecko_IOThread] WARNING: pipe error (87): Connection reset by peer: file /build/firefox-qCOyDf/firefox-68.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1567883587358	Marionette	INFO	Stopped listening on port 34431
+1567883616333	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.TGUhug4y7C9P"
+
+(firefox:24539): Gtk-WARNING **: 00:43:36.374: Theme parsing error: gtk.css:126:40: Expected ')' in color definition
+
+(firefox:24539): Gtk-WARNING **: 00:43:36.393: Theme parsing error: gtk.css:8679:128: Expected a valid selector
+1567883616755	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1567883616755	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1567883616755	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1567883616755	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(/usr/lib/firefox/firefox:24591): Gtk-WARNING **: 00:43:37.315: Theme parsing error: gtk.css:126:40: Expected ')' in color definition
+
+(/usr/lib/firefox/firefox:24591): Gtk-WARNING **: 00:43:37.327: Theme parsing error: gtk.css:8679:128: Expected a valid selector
+
+(/usr/lib/firefox/firefox:24610): Gtk-WARNING **: 00:43:37.451: Theme parsing error: gtk.css:126:40: Expected ')' in color definition
+
+(/usr/lib/firefox/firefox:24610): Gtk-WARNING **: 00:43:37.464: Theme parsing error: gtk.css:8679:128: Expected a valid selector
+1567883618352	Marionette	INFO	Listening on port 33897
+
+(/usr/lib/firefox/firefox:24680): Gtk-WARNING **: 00:43:38.408: Theme parsing error: gtk.css:126:40: Expected ')' in color definition
+
+(/usr/lib/firefox/firefox:24680): Gtk-WARNING **: 00:43:38.419: Theme parsing error: gtk.css:8679:128: Expected a valid selector
+1567883618440	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221567814407663%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+[Parent 24539, Gecko_IOThread] WARNING: pipe error (70): Connection reset by peer: file /build/firefox-qCOyDf/firefox-68.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+
+(/usr/lib/firefox/firefox:24779): Gtk-WARNING **: 00:44:36.410: Theme parsing error: gtk.css:126:40: Expected ')' in color definition
+
+(/usr/lib/firefox/firefox:24779): Gtk-WARNING **: 00:44:36.422: Theme parsing error: gtk.css:8679:128: Expected a valid selector
+[Parent 24539, Gecko_IOThread] WARNING: pipe error (127): Connection reset by peer: file /build/firefox-qCOyDf/firefox-68.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 24539, Gecko_IOThread] WARNING: pipe error (79): Connection reset by peer: file /build/firefox-qCOyDf/firefox-68.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1567883684069	Marionette	INFO	Stopped listening on port 33897
+1567918192032	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ys4px7g1wBsS"
+
+(firefox:3704): Gtk-WARNING **: 10:19:52.102: Theme parsing error: gtk.css:126:40: Expected ')' in color definition
+
+(firefox:3704): Gtk-WARNING **: 10:19:52.115: Theme parsing error: gtk.css:8679:128: Expected a valid selector
+1567918192569	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1567918192569	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1567918192569	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1567918192569	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(/usr/lib/firefox/firefox:3757): Gtk-WARNING **: 10:19:53.160: Theme parsing error: gtk.css:126:40: Expected ')' in color definition
+
+(/usr/lib/firefox/firefox:3757): Gtk-WARNING **: 10:19:53.172: Theme parsing error: gtk.css:8679:128: Expected a valid selector
+
+(/usr/lib/firefox/firefox:3778): Gtk-WARNING **: 10:19:53.320: Theme parsing error: gtk.css:126:40: Expected ')' in color definition
+
+(/usr/lib/firefox/firefox:3778): Gtk-WARNING **: 10:19:53.339: Theme parsing error: gtk.css:8679:128: Expected a valid selector
+
+(/usr/lib/firefox/firefox:3846): Gtk-WARNING **: 10:19:54.717: Theme parsing error: gtk.css:126:40: Expected ')' in color definition
+
+(/usr/lib/firefox/firefox:3846): Gtk-WARNING **: 10:19:54.737: Theme parsing error: gtk.css:8679:128: Expected a valid selector
+1567918194775	Marionette	INFO	Listening on port 33413
+1567918194842	Marionette	WARN	TLS certificate errors will be ignored for this session
+1567918199475	Marionette	INFO	Stopped listening on port 33413
+1567918215856	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.N9HoSFSP0UiP"
+
+(firefox:3912): Gtk-WARNING **: 10:20:15.891: Theme parsing error: gtk.css:126:40: Expected ')' in color definition
+
+(firefox:3912): Gtk-WARNING **: 10:20:15.903: Theme parsing error: gtk.css:8679:128: Expected a valid selector
+1567918216316	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1567918216316	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1567918216316	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1567918216316	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(/usr/lib/firefox/firefox:3965): Gtk-WARNING **: 10:20:16.856: Theme parsing error: gtk.css:126:40: Expected ')' in color definition
+
+(/usr/lib/firefox/firefox:3965): Gtk-WARNING **: 10:20:16.876: Theme parsing error: gtk.css:8679:128: Expected a valid selector
+
+(/usr/lib/firefox/firefox:3984): Gtk-WARNING **: 10:20:17.033: Theme parsing error: gtk.css:126:40: Expected ')' in color definition
+
+(/usr/lib/firefox/firefox:3984): Gtk-WARNING **: 10:20:17.058: Theme parsing error: gtk.css:8679:128: Expected a valid selector
+
+(/usr/lib/firefox/firefox:4055): Gtk-WARNING **: 10:20:18.175: Theme parsing error: gtk.css:126:40: Expected ')' in color definition
+
+(/usr/lib/firefox/firefox:4055): Gtk-WARNING **: 10:20:18.187: Theme parsing error: gtk.css:8679:128: Expected a valid selector
+1567918218223	Marionette	INFO	Listening on port 33491
+1567918218300	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:3984): dconf-WARNING **: 10:20:26.782: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1567918227159	Marionette	INFO	Stopped listening on port 33491
+1567918259044	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.xVdbJYNNqAF7"
+
+(firefox:4134): Gtk-WARNING **: 10:20:59.090: Theme parsing error: gtk.css:126:40: Expected ')' in color definition
+
+(firefox:4134): Gtk-WARNING **: 10:20:59.103: Theme parsing error: gtk.css:8679:128: Expected a valid selector
+1567918259483	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1567918259483	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1567918259483	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1567918259483	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(/usr/lib/firefox/firefox:4185): Gtk-WARNING **: 10:20:59.999: Theme parsing error: gtk.css:126:40: Expected ')' in color definition
+
+(/usr/lib/firefox/firefox:4185): Gtk-WARNING **: 10:21:00.011: Theme parsing error: gtk.css:8679:128: Expected a valid selector
+
+(/usr/lib/firefox/firefox:4204): Gtk-WARNING **: 10:21:00.185: Theme parsing error: gtk.css:126:40: Expected ')' in color definition
+
+(/usr/lib/firefox/firefox:4204): Gtk-WARNING **: 10:21:00.204: Theme parsing error: gtk.css:8679:128: Expected a valid selector
+
+(/usr/lib/firefox/firefox:4273): Gtk-WARNING **: 10:21:01.455: Theme parsing error: gtk.css:126:40: Expected ')' in color definition
+
+(/usr/lib/firefox/firefox:4273): Gtk-WARNING **: 10:21:01.468: Theme parsing error: gtk.css:8679:128: Expected a valid selector
+1567918261539	Marionette	INFO	Listening on port 36747
+1567918261563	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:4204): dconf-WARNING **: 10:21:10.290: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1567918270677	Marionette	INFO	Stopped listening on port 36747
+1567918292286	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.nEkFvifK6OaZ"
+
+(firefox:4348): Gtk-WARNING **: 10:21:32.326: Theme parsing error: gtk.css:126:40: Expected ')' in color definition
+
+(firefox:4348): Gtk-WARNING **: 10:21:32.346: Theme parsing error: gtk.css:8679:128: Expected a valid selector
+1567918292707	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1567918292708	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1567918292708	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1567918292708	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(/usr/lib/firefox/firefox:4399): Gtk-WARNING **: 10:21:33.261: Theme parsing error: gtk.css:126:40: Expected ')' in color definition
+
+(/usr/lib/firefox/firefox:4399): Gtk-WARNING **: 10:21:33.273: Theme parsing error: gtk.css:8679:128: Expected a valid selector
+
+(/usr/lib/firefox/firefox:4420): Gtk-WARNING **: 10:21:33.426: Theme parsing error: gtk.css:126:40: Expected ')' in color definition
+
+(/usr/lib/firefox/firefox:4420): Gtk-WARNING **: 10:21:33.449: Theme parsing error: gtk.css:8679:128: Expected a valid selector
+
+(/usr/lib/firefox/firefox:4487): Gtk-WARNING **: 10:21:34.667: Theme parsing error: gtk.css:126:40: Expected ')' in color definition
+
+(/usr/lib/firefox/firefox:4487): Gtk-WARNING **: 10:21:34.679: Theme parsing error: gtk.css:8679:128: Expected a valid selector
+1567918294749	Marionette	INFO	Listening on port 44611
+1567918294805	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 4420, MediaPlayback #4] WARNING: Decoder=7fe1f24a3c00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-qCOyDf/firefox-68.0.2+build1/dom/media/MediaDecoderStateMachine.cpp, line 351
+[Child 4420, MediaPlayback #4] WARNING: Decoder=7fe1f24a3c00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static mozilla::MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream*): Cannot parse metadata: file /build/firefox-qCOyDf/firefox-68.0.2+build1/dom/media/MediaDecoderStateMachine.cpp, line 3307
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221567814407663%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+[Parent 4348, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-qCOyDf/firefox-68.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3iLl54/yA/l/en_US/R31xikPatwr.js?_nc_x=Ip13JLIrcpv, line 9: TypeError: The expression cannot be converted to return the specified type.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3iW2_4/yF/l/en_US/9o4yqmPoQbj.js?_nc_x=Ip13JLIrcpv, line 453: Error: Prefetch request aborted.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yW/r/0KnK4PqSqSD.js?_nc_x=Ip13JLIrcpv, line 153: Error: Destroyed!
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yW/r/0KnK4PqSqSD.js?_nc_x=Ip13JLIrcpv, line 153: Error: Destroyed!
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yW/r/0KnK4PqSqSD.js?_nc_x=Ip13JLIrcpv, line 153: Error: Destroyed!
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yW/r/0KnK4PqSqSD.js?_nc_x=Ip13JLIrcpv, line 153: Error: Destroyed!
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yW/r/0KnK4PqSqSD.js?_nc_x=Ip13JLIrcpv, line 153: Error: Destroyed!
+
+(/usr/lib/firefox/firefox:4942): Gtk-WARNING **: 10:26:26.334: Theme parsing error: gtk.css:126:40: Expected ')' in color definition
+
+(/usr/lib/firefox/firefox:4942): Gtk-WARNING **: 10:26:26.365: Theme parsing error: gtk.css:8679:128: Expected a valid selector
+JavaScript warning: resource:///modules/UrlbarView.jsm, line 123: Array.reduce is deprecated; use Array.prototype.reduce instead
+
+(/usr/lib/firefox/firefox:4487): dconf-WARNING **: 10:27:06.729: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+
+(/usr/lib/firefox/firefox:5089): Gtk-WARNING **: 10:27:32.956: Theme parsing error: gtk.css:126:40: Expected ')' in color definition
+
+(/usr/lib/firefox/firefox:5089): Gtk-WARNING **: 10:27:32.979: Theme parsing error: gtk.css:8679:128: Expected a valid selector
+[Parent 4348, Gecko_IOThread] WARNING: pipe error (135): Connection reset by peer: file /build/firefox-qCOyDf/firefox-68.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1567918660279	Marionette	INFO	Stopped listening on port 44611
+1568004180896	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.E9pSYEB7QoST"
+
+(firefox:2395): Gtk-WARNING **: 10:13:01.035: Theme parsing error: gtk.css:126:40: Expected ')' in color definition
+
+(firefox:2395): Gtk-WARNING **: 10:13:01.047: Theme parsing error: gtk.css:8679:128: Expected a valid selector
+1568004187683	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1568004187684	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1568004187684	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1568004187684	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(/usr/lib/firefox/firefox:2451): Gtk-WARNING **: 10:13:08.460: Theme parsing error: gtk.css:126:40: Expected ')' in color definition
+
+(/usr/lib/firefox/firefox:2451): Gtk-WARNING **: 10:13:08.498: Theme parsing error: gtk.css:8679:128: Expected a valid selector
+
+(/usr/lib/firefox/firefox:2476): Gtk-WARNING **: 10:13:08.716: Theme parsing error: gtk.css:126:40: Expected ')' in color definition
+
+(/usr/lib/firefox/firefox:2476): Gtk-WARNING **: 10:13:08.736: Theme parsing error: gtk.css:8679:128: Expected a valid selector
+
+(/usr/lib/firefox/firefox:2544): Gtk-WARNING **: 10:13:10.219: Theme parsing error: gtk.css:126:40: Expected ')' in color definition
+
+(/usr/lib/firefox/firefox:2544): Gtk-WARNING **: 10:13:10.246: Theme parsing error: gtk.css:8679:128: Expected a valid selector
+1568004190287	Marionette	INFO	Listening on port 46059
+1568004190355	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221567814407663%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+
+(/usr/lib/firefox/firefox:2822): Gtk-WARNING **: 10:14:34.244: Theme parsing error: gtk.css:126:40: Expected ')' in color definition
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+
+(/usr/lib/firefox/firefox:2822): Gtk-WARNING **: 10:14:34.267: Theme parsing error: gtk.css:8679:128: Expected a valid selector
+[Parent 2395, Gecko_IOThread] WARNING: pipe error (151): Connection reset by peer: file /build/firefox-qCOyDf/firefox-68.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1568004285654	Marionette	INFO	Stopped listening on port 46059
+1568004567595	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.fXTZ3KRjd54U"
+
+(firefox:3831): Gtk-WARNING **: 10:19:27.632: Theme parsing error: gtk.css:126:40: Expected ')' in color definition
+
+(firefox:3831): Gtk-WARNING **: 10:19:27.663: Theme parsing error: gtk.css:8679:128: Expected a valid selector
+1568004568102	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1568004568102	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1568004568102	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1568004568102	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(/usr/lib/firefox/firefox:3881): Gtk-WARNING **: 10:19:28.668: Theme parsing error: gtk.css:126:40: Expected ')' in color definition
+
+(/usr/lib/firefox/firefox:3881): Gtk-WARNING **: 10:19:28.685: Theme parsing error: gtk.css:8679:128: Expected a valid selector
+
+(/usr/lib/firefox/firefox:3902): Gtk-WARNING **: 10:19:28.864: Theme parsing error: gtk.css:126:40: Expected ')' in color definition
+
+(/usr/lib/firefox/firefox:3902): Gtk-WARNING **: 10:19:28.907: Theme parsing error: gtk.css:8679:128: Expected a valid selector
+
+(/usr/lib/firefox/firefox:3973): Gtk-WARNING **: 10:19:30.234: Theme parsing error: gtk.css:126:40: Expected ')' in color definition
+
+(/usr/lib/firefox/firefox:3973): Gtk-WARNING **: 10:19:30.255: Theme parsing error: gtk.css:8679:128: Expected a valid selector
+1568004570287	Marionette	INFO	Listening on port 41367
+1568004570315	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221567814407663%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+
+(/usr/lib/firefox/firefox:4095): Gtk-WARNING **: 10:20:32.786: Theme parsing error: gtk.css:126:40: Expected ')' in color definition
+
+(/usr/lib/firefox/firefox:4095): Gtk-WARNING **: 10:20:32.803: Theme parsing error: gtk.css:8679:128: Expected a valid selector
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+
+(/usr/lib/firefox/firefox:4146): Gtk-WARNING **: 10:20:46.501: Theme parsing error: gtk.css:126:40: Expected ')' in color definition
+
+(/usr/lib/firefox/firefox:4146): Gtk-WARNING **: 10:20:46.547: Theme parsing error: gtk.css:8679:128: Expected a valid selector
+[Parent 3831, Gecko_IOThread] WARNING: pipe error (134): Connection reset by peer: file /build/firefox-qCOyDf/firefox-68.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 3831, Gecko_IOThread] WARNING: pipe error (116): Connection reset by peer: file /build/firefox-qCOyDf/firefox-68.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1568004660627	Marionette	INFO	Stopped listening on port 41367
