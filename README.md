@@ -1,6 +1,6 @@
 # AutoPost-FB
 
-This `Python` script uses `Selenium` for automating browsing and logging to facebook using users credentials and posts `Happy Birthday` to everyone who has a birthday on the current day. It runs on a Firefox browser using the `Geckodriver`.
+This `Python` script uses `Selenium` for automating browsing and logging to facebook using users credentials and posts, `Happy Birthday` to everyone who has a birthday on the current day. It runs on a Firefox browser using the `Geckodriver`.
 
 ## Installation
 
@@ -13,7 +13,8 @@ Latest [Geckodriver](https://github.com/mozilla/geckodriver/releases) download a
 
 ## Usage
 
-```from selenium import webdriver
+```
+from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import getpass
 
