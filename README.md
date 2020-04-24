@@ -13,7 +13,7 @@ Latest [Geckodriver](https://github.com/mozilla/geckodriver/releases) download a
 
 ## Usage
 
-```
+```python
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import getpass
